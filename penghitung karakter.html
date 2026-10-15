@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Valentino Fausta - Aplikasi Penghitung Karakter</title>
+  
+  <link rel="stylesheet" href="style penghitung.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Aplikasi Penghitung Karakter</h2>
+    <p class="subtitle">Ketik pesan Anda di bawah ini (maksimal 150 karakter)</p>
+    <textarea 
+      id="pesan" 
+      oninput="hitungKarakter()" 
+      maxlength="150" 
+      placeholder="Tulis pesan..."></textarea>
+
+    <div class="info-container">
+      <span class="info-label">Sisa karakter:</span>
+      <span id="sisa-karakter">150</span>
+    </div>
+
+    <div id="peringatan" class="pesan-peringatan">
+      Batas maksimal 150 karakter telah tercapai!
+    </div>
+  </div>
+  <script src="script perhitung karakter.js"></script>
+</body>
+</html>

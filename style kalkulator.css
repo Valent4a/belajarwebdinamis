@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 420px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    font-size: 0.88rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
+    font-size: 0.9rem;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid #dcdfe6;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #3498db;
+}
+
+button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#hasil {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    display: none;
+}
+.diskon-sukses {
+    background-color: #e8f8f5;
+    border: 1px solid #a3e4d7;
+    color: #117864;
+}
+.diskon-normal {
+    background-color: #fef9e7;
+    border: 1px solid #fdebd0;
+    color: #b9770e;
+}
+.diskon-error {
+    background-color: #fadbd8;
+    border: 1px solid #f5b7b1;
+    color: #78281f;
+}
+
+.pesan-utama {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.detail-pembayaran {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.15);
+}
